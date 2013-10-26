@@ -187,7 +187,7 @@ function ListView(element, calendar) {
 						"</" + (lurl ? "a" : "div") + ">"+                                        
 					"</li>").appendTo(html);   
 				}
-				eventElementHandlers(events[i], eventdisplay);
+				eventElementHandlers(events[i], eventdisplay.find(".fc-event"));
 			}
 		}
 
