@@ -161,30 +161,31 @@
   margin: 0;
   padding: 0;
 }
-.fc-agendaList-day-header {
+.fc-agendaList-widget-header {
   background-color: #F0F0F0;
   border: none;
   border-top: 1px solid #E0E0E0;
+  color: #404040;
+  font-weight: bold;
   overflow: hidden;
   padding: 8px;
 }
-.fc-agendaList-day-header:first-child {
+.fc-agendaList-widget-header:first-child {
   border-top: none;
 }
-.fc-agendaList-day,
-.fc-agendaList-date {
+.fc-agendaList-widget-header-day,
+.fc-agendaList-widget-header-date {
   display: block;
   font-size: 14px;
   line-height: 20px;
 }
-.fc-agendaList-day {
-  color: #404040;
+.fc-agendaList-widget-header-day {
   float: left;
-  font-weight: bold;
 }
-.fc-agendaList-date {
+.fc-agendaList-widget-header-date {
   color: #707070;
   float: right;
+  font-weight: normal;
 }
 .fc-agendaList-item {
   border: none;
